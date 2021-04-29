@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<title>Carros</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<style>
+body, html {
+  height: 100%;
+  font-family: "Inconsolata", sans-serif;
+}
+
+.bgimg {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://www.wallpaperflare.com/static/85/82/446/night-city-cars-traffic-orange-wallpaper-preview.jpg");
+  min-height: 75%;
+}
+
+.menu {
+  display: none;
+}
+</style>
+<body>
+
+<div class="w1-top">
+  <div class="w1-row w3-padding w3-black">
+    <div class="w1-col s3">
+      <a href="#" class="w3-button w3-block w3-black">TEMA 
+      </a>
+    </div>
+    </div>
+</div>
+
+
+
+
+<header class="bgimg w3-display-container w3-grayscale-min" id="principal">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag"><h3>Astrid Broce, Kelly Feng, Elena Zhong</h3></span>
+
+    
+
+  </div>
+  
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white" style="font-size:90px">
+   <div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:900px">
+    <a target="_top" href="https://flamingtext.com/" ><img src="https://blog.flamingtext.com/blog/2021/04/27/flamingtext_com_1619552715_1009711995.png" border="0" alt="Logo Design by FlamingText.com" title="Logo Design by FlamingText.com"></a>
+    </a>
+</header>
+
+
+<style>
+  body {
+    background: linear-gradient(135deg, #00A4E4, #14ffe9, #de3bff, #ff00e0);
+  }
+</style>
+
+
+<div class="w3-panel w3-leftbar w3-black">
+
+<script>
+    setInterval(()=>{
+        const time = document.querySelector(".display #time");
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+        let day_night = "AM";
+        if(hours > 12){
+          day_night = "PM";
+          hours = hours - 12;
+        }
+        if(seconds < 10){
+          seconds = "0" + seconds;
+        }
+        if(minutes < 10){
+          minutes = "0" + minutes;
+        }
+        if(hours < 10){
+          hours = "0" + hours;
+        }
+        time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+      });
+</script>
+
+<style>
+    .wrapper{
+  height: 100px;
+  width: 500px;
+  position: relative;
+  background: linear-gradient(135deg, #e434fbdc, #00A4E4, #001aff);
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-top: 50px;
+  animation: animate 1.5s linear infinite;
+}
+.wrapper .display,
+.wrapper span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.wrapper .display{
+  z-index: 999;
+  height: 85px;
+  width: 485px;
+  background: #16191e;
+  border-radius: 6px;
+  text-align: center;
+}
+.display #time{
+  line-height: 85px;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #14ffe9, #f83bff, #ff00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animate 1.5s linear infinite;
+}
+.wrapper span{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background: inherit;
+}
+.wrapper span:first-child{
+  filter: blur(9px);
+}
+.wrapper span:last-child{
+  filter: blur(20px);
+}
+</style>
+
+
+
+<audio style="display:none;"controls autoplay loop>
+    <source src="./info/y2mate.com - [FREE] Colde x Anderson Paak R&B Type Beat ''Portrait'' (prod. by wavytrbl).mp3">
+</audio>
+
+
+
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:85%">
+
+
+
+
+    <center>
+        <div class="wrapper">
+            <div class="display">
+              <div id="time"></div>
+            </div>
+            <span></span>
+            <span></span>
+          </div>
+        </center>
+
+        <style>
+          .read{
+          margin: 50px auto;
+          width: 80%;
+          padding: 8px;
+        }
+        
+        .texting {
+          text-align: justify;
+          color: #fff;
+          font-size: 1.3rem;
+        }
+
+        .about {float: left;
+         width: 600px;
+         height: 400px;
+         padding: 0 10px 0 0;
+         margin-right: 30px;
+         margin-bottom: 20px;
+       }
+        </style>
+        
+
+
+        <div class="read">
+          <a href="https://www.motor.es/que-es/coches-autonomos"><img src="https://images.unsplash.com/photo-1533106418989-88406c7cc8ca?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="about"></a>
+          <div class="texting">
+            <h2><B>¿QUÉ ES?</B></h2>
+           
+
+            Un coche autónomo es aquel que cuenta con los sistemas informáticos necesarios para imitar las capacidades humanas en cuanto a la conducción, tanto por manejo como por control. A priori, se consideran vehículos autónomos aquellos que no necesitan conductor; sin embargo, el concepto sigue evolucionando y hay varios niveles de conducción autónoma.
+            <br>
+            Los coches autónomos son capaces de percibir el entorno que lo rodea y, en base al análisis del mismo, aplicar técnicas de conducción. En esto, sus ocupantes pueden elegir el destino al que se dirija el vehículo, pero no es necesario que tomen ningún tipo de acción sobre la conducción.
+
+          </div>           
+        </div>
+
+
+
+
+        <h3 style="background: linear-gradient(135deg, #14ffe9, #f83bff, #ff00e0);"><marquee behavior="scroll" direction="left">NIVELES DE AUTONOMÍA</marquee></h3>
+        <div class="texting">
+    <p><B>Nivel 0 Control humano.</B> <br>
+El funcionamiento del automóvil depende totalmente del conductor humano. Aquí se incluye a automóviles equipados con diferentes dispositivos para advertir al conductor de situaciones concretas, como el nivel de combustible.</p>
+
+<p><B>Nivel 1: Asistencia al conductor.</B>  <br>
+En este nivel, el automóvil incorpora tecnologías como el frenado autónomo de emergencia (AEB) o la regulación de velocidad, para asistir al conductor. Las tecnologías no pueden funcionar de manera simultánea.
+</p>
+
+
+<p><B>Nivel 2: Automatización parcial</B>  <br>
+El automóvil puede controlar al menos dos funciones automáticas de manera simultánea. Por ejemplo, sistemas autónomos de aceleración y dirección asistidas para ayudar al conductor. El conductor humano debe controlar el vehículo en todo momento.</p>
+
+
+<p><B>Nivel 3: Autonomía condicional.</B>  <br>
+El vehículo es capaz de gestionar todas las funciones críticas de seguridad en determinadas condiciones, pero el conductor debe asumir el control cuando se produzca una alerta. El conductor debe permanecer atento incluso con el vehículo en modo autónomo.</p>
+
+<p><B>Nivel 4: Autonomía predefinida.</B>  <br>
+El automóvil es totalmente autónomo en algunos escenarios de conducción, no en todos. El vehículo es totalmente autónomo en entornos predefinidos, sin requerir la intervención de un conductor humano.</p>
+
+
+<p><B>Nivel 5: Totalmente autónomo.</B>  <br>
+El automóvil es completamente capaz de circular por sí solo en cualquier situación y en cualquier lugar, sin intervención de un conductor.</p>
+
+<div class="texting">
+
+
+
+
+
+    <h1 style="background: linear-gradient(135deg, #14ffe9, #f83bff, #ff00e0);"><center><br><iframe width="950" height="534" src="https://www.youtube.com/embed/rnM0n-Vci8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>.</center> </h1>
+
+<br>
+
+<div class="w3-panel w3-leftbar w3-black ">
+      <p><i>"En 2014, la Sociedad de Ingenieros Automotrices (SAE) publicaba su escala de automatización, que contempla seis niveles: Se trata de una escala que va del 0 a 5, donde el nivel 0 se reserva para vehículos que dependen absolutamente del conductor, mientras que el nivel 5, por el contrario, indica una autonomía total en cualquier entorno. El resto de valores se utilizan para indicar niveles intermedios de autonomía.</i></p>
+    </div>
+
+
+<br>
+
+
+    <h3 style="background: linear-gradient(135deg, #14ffe9, #583bff, #ff00e0);"><marquee behavior="scroll" direction="left">EL LANZAMIENTO DE 5G</marquee></h3>
+        <div class="texting">
+          <p>Las redes 5G permiten conexiones de banda ancha ultrarrápidas, y van a ser capaces de conectar sensores viales a Internet y ejercer tecnologías  para contribuir a precipitar la toma de elecciones en los carros garantizando una más grande estabilidad. Esto involucra que la instalación de sensores en las carreteras y la construcción de una infraestructura de “carreteras inteligentes” contribuirá a fomentar la fijación del transporte autosuficiente. Los sensores viales disminuirán la carga de procesamiento en los sistemas que incorporen los vehículos, por lo cual éstos no se verán forzados a gestionar tantas elecciones rápidas. Y esta clase de dispositivos puede, además, contribuir a evadir las interferencias que determinados materiales que se usan en el firme de las carreteras generan sobre el desempeño de los sensores que equipan los carros.</p>
+
+
+<center><br><img src="https://image.freepik.com/free-photo/5g-pink-blue-neon-sign-wall-with-bricks_124343-235.jpg" alt="Trulli" width="850" height="533"></br></center>
+
+<br>
+
+
+<h3 style="background: linear-gradient(135deg, #14ffe9, #583bff, #ff00e0);"><marquee behavior="scroll" direction="left">CARACTERÍSTICAS</marquee></h3>
+        <div class="texting">
+      <p>- No cuentan con pedales</p>
+      <p>- Cuentan con un cerebro virtual (el encargado de identificar la situación y, entonces, accionar).</p>
+      <p>- Tienen sensores, cámara y radares, dichos sensores pueden ver en 360ª con un alcance amplio, aproximadamente la distancia es de dos campos de fútbol. Pueden detectar objetos en todas las direcciones.</p>
+      <p>- Pueden ver el camino sin importar el clima (lluvia, niebla o nieve).
+      GPS, mapas en 3D.</p>
+      <p>- Visión computerizada, normalmente su forma es redonda para maximizar el campo de visión.</p>
+      <p>- Baterías electrónicas para poder accionar el vehículo.</p>
+      <p>- Sensor frontal que mide la velocidad de los vehículos que están delante de este coche.
+      </p>
+
+
+      <style>
+
+        span {
+          border: 2px solid #000000;
+          background: linear-gradient(135deg, #14ffe9, #583bff, #ff00e0);
+        }
+        </style>
+
+
+<style>
+
+td, th {
+  border: 2px solid #000000;
+  background: linear-gradient(135deg, #14ffe9, #583bff, #ff00e0);
+  text-align: left;
+  padding: 20px;
+}
+</style>
+
+
+  
+
+
+
+<h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ELEMENTOS DE UN CARRO AUTÓNOMO</span></h5>
+  <center><table>
+   <tr>
+     <td><center><img src="https://www.sabermas.umich.mx/images/stories/24/tec_2.JPG" alt="Trulli" width="500" height="300"></center></td>
+     <td><center><img src="https://i.blogs.es/3033ef/coche-autonomo-google-nuevo/1366_2000.jpg" alt="Trulli" width="500" height="300"></center></td>
+   </tr>
+ </table>
+</center>
+
+<br>
+<center><iframe width="900" height="600" src="https://www.youtube.com/embed/CqSDWoAhvLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+
+
+<center>
+  <a href="https://www.motorpasion.com/tecnologia/ocho-puntos-en-los-que-el-prototipo-de-coche-autonomo-de-google-tiene-que-mejorar-mucho-para-ser-un-buen-coche">Click aquí para más detalles</a>
+  </center>
+
+
+ <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">TIPOS DE COMPONENTES</span></h5>
+  
+  
+  <table>
+   
+    <tr>
+     <th><center>Componentes Software</center></th>
+     <th><center>Componentes Hardware</center></th>
+   </tr>
+   <tr>
+     <td>Cada una de las imágenes se asocia con el tipo de vehículo que contiene. El algoritmo de Machine learning, se “entrena” con distintas imágenes que ejemplifican todas las situaciones posibles, empieza a procesar las imágenes. Inicialmente, intenta adivinar que vehículo hay en cada imagen y al principio se equivocará muy a menudo. Como conoce “la solución”, es decir, que vehículo hay en realidad en cada imagen, modifica y adapta parámetros internos y lo vuelve a intentar. El proceso continua reduciendo iterativamente la tasa de fallos. Más adelante, cuando se le presenten nuevas imágenes podrá clasificarlas correctamente. Podemos, entonces, afirmar que el algoritmo ha aprendido.</td>
+     <td>Con el objeto de poder tomar decisiones acertadas, el coche necesita recopilar toda la información disponible en su entorno. Para ello, los coches autónomos cuentan con una serie de sensores y cámaras que permiten la captación de información. Más concretamente, cada vehículo suele estar equipado con una unidad GPS, un sistema de navegación inercial, y una serie de sensores: medidores láser, un radar, un lidar y vídeo.</td>
+   </tr>
+ </table>
+
+<div align="center" style="z-index:9;visibility:visible;"><a href="https://www.totallyfreecursors.com/" target="_blank" class="tfc"></div><style>HTML,BODY{cursor: url("https://downloads.totallyfreecursors.com/cursor_files/rainbow-ani.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/rainbow-ani3.gif"), auto;}</style>
+
+
+<br>
+<center><a href="http://www.websmultimedia.com/contador-de-visitas-gratis" title="Contador De Visitas Gratis">
+<img style="border: 0px solid; display: inline;" alt="contador de visitas" src="http://www.websmultimedia.com/contador-de-visitas.php?id=295150"></a><br><a href='http://www.websmultimedia.com/contador-de-visitas-gratis'>Visitas</a><br><a href='http://www.websmultimedia.com/diseno-web/sevilla'></a></center>
+
+<br>
+
+<center><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd4jUYbxUBsyK2JCDvQBot8hBsOo_pHKxwjRQiWnwK61BgOIQ/viewform?embedded=true" width="640" height="462" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe></center>
+
+</body>
+</html>
+
+
